@@ -16,7 +16,6 @@ public struct BottomBar: View {
     public init(selectedIndex: Binding<Int>, items: [BottomBarItem]) {
         self._selectedIndex = selectedIndex
         self.items = items
-//        UITabBar.appearance().unselectedItemTintColor = UIColor.black
     }
     
     func itemView(at index: Int) -> some View {
